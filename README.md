@@ -1,4 +1,4 @@
-# Shader-evaluator
+# Shader Evaluator
 A small program made with OpenGL to compare different shading models. 
 ![Image of application](https://github.com/GabrielRosenberg/Shader-evaluator/blob/master/preview_shader_evaluator.png)
 ## Libraries used in this project
