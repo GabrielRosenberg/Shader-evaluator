@@ -1,0 +1,3 @@
+/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/CMakeFiles/ShaderEvaluator.dir

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ShaderEvaluator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\vcpkg\;CMake Files\..\..\..\..\vcpkg\scripts\;CMake Files\..\..\..\..\vcpkg\scripts\buildsystems\;CMake Files\..\..\..\..\vcpkg\installed\;CMake Files\..\..\..\..\vcpkg\installed\x64-linux\;CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\;CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glfw3\;CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glad\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ShaderEvaluator">
+				<Option output="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/ShaderEvaluator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gabriel/vcpkg/installed/x64-linux/include/glad"/>
+					<Add directory="/home/gabriel/vcpkg/installed/x64-linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ShaderEvaluator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ShaderEvaluator/fast">
+				<Option output="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/ShaderEvaluator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gabriel/vcpkg/installed/x64-linux/include/glad"/>
+					<Add directory="/home/gabriel/vcpkg/installed/x64-linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ShaderEvaluator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/Camera.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/Camera.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/Mesh.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/Mesh.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/Shader.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/Shader.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imconfig.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui_demo.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui_draw.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui_impl_glfw.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui_impl_glfw.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui_impl_opengl3.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui_impl_opengl3.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui_internal.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui_tables.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imgui_widgets.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imstb_rectpack.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imstb_textedit.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/imGui/imstb_truetype.h">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/main.cpp">
+			<Option target="ShaderEvaluator"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glfw3/glfw3Targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glfw3/glfw3Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glad/gladConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glad\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glad/gladConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glad\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glad/gladTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glad\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glad/gladTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glad\"/>
+		</Unit>
+		<Unit filename="/home/gabriel/OneDrive/development/cpp/ShaderEvaluator/../../../../vcpkg/installed/x64-linux/share/glad/gladTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\installed\x64-linux\share\glad\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
